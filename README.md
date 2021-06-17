@@ -56,7 +56,7 @@ Since a better planning results in better outcomes. So , is the case while culti
 
 
 ## DEMO
-[![Watch the video](https://github.com/sanskar-agrawal1903/Sustained-Harvester/blob/main/app/static/images/3.jpg)](https://drive.google.com/file/d/13sG4y39upZUqQ-oRKsZug95jlve2b6aB/view?usp=sharing)
+[![Watch the video](Link)](https://drive.google.com/file/d/13sG4y39upZUqQ-oRKsZug95jlve2b6aB/view?usp=sharing)
 
 
 

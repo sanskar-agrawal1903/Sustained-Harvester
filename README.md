@@ -56,7 +56,7 @@ Since a better planning results in better outcomes. So , is the case while culti
 
 
 ## DEMO
-[[Watch the video]](https://drive.google.com/file/d/13sG4y39upZUqQ-oRKsZug95jlve2b6aB/view?usp=sharing)
+[Click here for demo](https://drive.google.com/file/d/13sG4y39upZUqQ-oRKsZug95jlve2b6aB/view?usp=sharing)
 
 
 

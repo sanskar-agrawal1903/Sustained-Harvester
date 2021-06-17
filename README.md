@@ -1,20 +1,31 @@
-# HARVESTIFY
-#### A simple machine learning based website which recommends best crop to grow, fertilizers to use and the diseases caught by your crops
+# Sustained-Harvester
 
-#### This project is featured on [Krish Naik's](https://www.youtube.com/channel/UCNU_lfiiWBdtULKOw6X0Dig) YouTube Channel ==> Check it out [here](https://www.youtube.com/watch?v=zJcSod-L-Ps)
+
 
 ## MOTIVATION
-- Farming is one of the major sectors that influences a country’s economic growth. 
+Today, one of the major problem our environment is facing is that, though many people want to grow plants around them, but rare of those plants survive.
+As there are various natural as well as synthetic factors affecting behind the growth . 
+So to overcome this problem our project is suggesting strategic ways while cultivation.
 
-- In country like India, majority of the population is dependent on agriculture for their livelihood. Many new technologies, such as Machine Learning and Deep Learning, are being implemented into agriculture so that it is easier for farmers to grow and maximize their yield. 
 
-- In this project, I present a website in which the following applications are implemented; Crop recommendation, Fertilizer recommendation and Plant disease prediction, respectively. 
+## FUNCTIONALITY COVERED 
+1) First functionality of this project is Crop Prediction.
+In the study we have find that the sustainability of plant mostly depends on temperature and humidity of environment and the amount of nitrogen Phosphorus and potassium in the soil.
 
-    - In the crop recommendation application, the user can provide the soil data from their side and the application will predict which crop should the user grow. 
-    
-    - For the fertilizer recommendation application, the user can input the soil data and the type of crop they are growing, and the application will predict what the soil lacks or has excess of and will recommend improvements. 
-    
-    - For the last application, that is the plant disease prediction application, the user can input an image of a diseased plant leaf, and the application will predict what disease it is and will also give a little background about the disease and suggestions to cure it.
+Therefore we will be taking name of states and city for temperature and humidity and amount of nitrogen Phosphorus potassium and then the crop prediction model will find which plant will be most suitable to grow in that particular area.
+
+ we will use a random forest for the production
+
+2)Second model is based on Fertilization Prediction. 
+In this we are entering the amount of nitrogen, phosphorus and potassium present in our soil, and hence suggesting the best fertiliser for the aimed plant. 
+
+Beside from this, it also guide the water requirement for any particular plant, provide do's and don'ts need to be kept in mind and other influencing factors.
+
+3) The third model takes the picture of a plant and identify  the disease the plant have.  
+
+Apart from this, it also predict it's cure .
+
+Since a better planning results in better outcomes. So , is the case while cultivating plants. Strategic cultivation will not only lead us to better growth of a plant but also to well managed and sustained ecosystem. As it will cutdown the resources consumption by a plant in every aspect and hence will improve the ecological balance at a great extent. 
 
 ## DATA SOURCE
 - [Crop recommendation dataset ](https://www.kaggle.com/atharvaingle/crop-recommendation-dataset) (custom built dataset)
@@ -26,21 +37,7 @@
 - [Crop Recommendation](https://www.kaggle.com/atharvaingle/what-crop-to-grow)
 - [Disease Detection](https://www.kaggle.com/atharvaingle/plant-disease-classification-resnet-99-2)
 
-# Built with
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"></code>
-<code><img height="30" src="https://github.com/tomchen/stack-icons/raw/master/logos/bootstrap.svg"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"></code>
-<code><img height="30" src="https://symbols.getvecta.com/stencil_80/56_flask.3a79b5a056.jpg"></code>
-<code><img height="30" src="https://cdn.iconscout.com/icon/free/png-256/heroku-225989.png"></code>
 
-<code><img height="30" src="https://raw.githubusercontent.com/numpy/numpy/7e7f4adab814b223f7f917369a72757cd28b10cb/branding/icons/numpylogo.svg"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/pandas-dev/pandas/761bceb77d44aa63b71dda43ca46e8fd4b9d7422/web/pandas/static/img/pandas.svg"></code>
-<code><img height="30" src="https://matplotlib.org/_static/logo2.svg"></code>
-<code><img height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/1280px-Scikit_learn_logo_small.svg.png"></code>
-<code><img height="30" src="https://raw.githubusercontent.com/pytorch/pytorch/39fa0b5d0a3b966a50dcd90b26e6c36942705d6d/docs/source/_static/img/pytorch-logo-dark.svg"></code>
 
 ## DEPLOYMENT
 
@@ -59,7 +56,7 @@ Note: When you enter the city name, make sure to enter mostly common city names.
 Note that, for now it only supports following crops
 
 <details>
-  <summary>Supported crops
+  <summary>Supported crops by our project
 </summary>
 
 - Apple
@@ -81,38 +78,8 @@ Note that, for now it only supports following crops
 
 ## DEMO
 
-- ### Crop recommendation system
-
-![demo](https://media.giphy.com/media/90JbjdAa5nDq3TJh5u/giphy.gif)
-
-- ### Fertilizer suggestion system
-
-![demo](https://media.giphy.com/media/FLftUXMFo8N2bBjAXq/giphy.gif)
-
-
-- ### Disease Detection system
-![demo](https://media.giphy.com/media/NnMwEp2tGZdfnJbyjr/giphy.gif)
 
 
 
-## Contribute
-Please read [CONTRIBUTING.md](https://github.com/Gladiator07/Harvestify/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-## Usage
-You can use this project for further developing it and adding your work in it. If you use this project, kindly mention the original source of the project and mention the link of this repo in your report.
 
-## Further Improvements
-This was my first big project so there are lot of things to improve upon
-
-- CSS code is totally messed up :pensive: (some code in file and some inline)
-- Frontend can be made more nicer (PS: I suck at frontend development) :cry:	
-- More data can be collected manually via web scrapping to make the system more accurate :monocle_face:	
-- Additional plant images can be collected to make the disease detection part more robust and generalized :face_with_head_bandage:
-- Modularized code can be written instead of writing in Jupyter Notebooks (will follow this in upcoming projects)
-
-## License
-This project is licensed under [GNU (GENERAL PUBLIC LICENSE)](https://github.com/Gladiator07/Harvestify/blob/master/LICENSE).
-
-## Contact
-
-#### If you have any doubt or want to contribute feel free to email me or hit me up on [LinkedIn](https://www.linkedin.com/in/atharva-ingle-564430187/)
